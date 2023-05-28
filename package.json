@@ -4,14 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src",
-
-    "start": "node main.js",
-
-    "build": "npm run build:frontend",
-    "build:frontend": "webpack --mode production",
-
-    "vercel-build": "npm run build",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
