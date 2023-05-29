@@ -49,12 +49,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node src/main.js",
-    "vercel-build": "npm run build",
-    "predeploy": "npm run build"
-  },
-  "engines": {
-    "node": "18.x"
+  "deploy":"gh-pages -d src"
   },
   "keywords": [],
   "author": "",
