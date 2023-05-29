@@ -50,7 +50,6 @@
   "devDependencies": {},
   "scripts": {
     "start": "node src/main.js",
-    "build": "npm run build:frontend",
     "vercel-build": "npm run build",
     "predeploy": "npm run build"
   },
