@@ -49,9 +49,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js",
+    "build": "npm run build:frontend",
+    "build:frontend": "webpack --mode production",
+    "vercel-build": "npm run build",
+    "predeploy": "npm run build"
+  },
+  "engines": {
+    "node": "18.16.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
